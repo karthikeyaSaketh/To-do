@@ -101,3 +101,15 @@ ul li span:hover{
     background: #edeef0;
     cursor: pointer;
 }
+
+@media screen and (max-width : 500px) {
+    .row{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }    
+    .row input{
+        text-align: center;
+    }
+}
